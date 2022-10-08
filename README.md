@@ -1,5 +1,3 @@
-# to deploy a contract run (https://book.getfoundry.sh/forge/deploying)
-
 1. fill out .env file
 
 2. deploy contracts by running
