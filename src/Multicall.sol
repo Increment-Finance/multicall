@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.12;
+pragma solidity 0.8.16;
 
 /// @title Multicall - Aggregate results from multiple read-only function calls
 /// @author Michael Elliot <mike@makerdao.com>
@@ -12,11 +12,16 @@ contract Multicall {
         bytes callData;
     }
 
-    function aggregate(Call[] calldata calls) public returns (uint256 blockNumber, bytes[] memory returnData) {
+    function aggregate(Call[] calldata calls)
+        public
+        returns (uint256 blockNumber, bytes[] memory returnData)
+    {
         blockNumber = block.number;
         returnData = new bytes[](calls.length);
         for (uint256 i = 0; i < calls.length; i++) {
-            (bool success, bytes memory ret) = calls[i].target.call(calls[i].callData);
+            (bool success, bytes memory ret) = calls[i].target.call(
+                calls[i].callData
+            );
             require(success);
             returnData[i] = ret;
         }
@@ -27,7 +32,11 @@ contract Multicall {
         balance = addr.balance;
     }
 
-    function getBlockHash(uint256 blockNumber) public view returns (bytes32 blockHash) {
+    function getBlockHash(uint256 blockNumber)
+        public
+        view
+        returns (bytes32 blockHash)
+    {
         blockHash = blockhash(blockNumber);
     }
 
@@ -35,11 +44,19 @@ contract Multicall {
         blockHash = blockhash(block.number - 1);
     }
 
-    function getCurrentBlockTimestamp() public view returns (uint256 timestamp) {
+    function getCurrentBlockTimestamp()
+        public
+        view
+        returns (uint256 timestamp)
+    {
         timestamp = block.timestamp;
     }
 
-    function getCurrentBlockDifficulty() public view returns (uint256 difficulty) {
+    function getCurrentBlockDifficulty()
+        public
+        view
+        returns (uint256 difficulty)
+    {
         difficulty = block.difficulty;
     }
 

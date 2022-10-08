@@ -8,3 +8,9 @@ cache
 .env.prod
 
 old.gas-snapshot
+
+cache
+artifacts
+cache-zk
+artifacts-zk
+node_modules
