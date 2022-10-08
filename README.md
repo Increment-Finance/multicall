@@ -1,3 +1,5 @@
+# steps
+
 1. fill out .env file
 
 2. deploy contracts by running
