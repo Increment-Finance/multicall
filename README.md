@@ -17,16 +17,16 @@ yarn hardhat deploy-zksync
 
 | Chain     | Address                                                                                                                     |
 | --------- | --------------------------------------------------------------------------------------------------------------------------- |
-| zktestnet | [0x3A70686fCd9Cf930608d89a2eBb986799bF1fbe8](https://explorer.zksync.io/address/0x3A70686fCd9Cf930608d89a2eBb986799bF1fbe8) |
+| zktestnet | [0xc8410C2AEDb67eB35ba04b6876FA671994a2c438](https://explorer.zksync.io/address/0xc8410C2AEDb67eB35ba04b6876FA671994a2c438) |
 
 `Multicall2.sol`
 
 | Chain     | Address                                                                                                                     |
 | --------- | --------------------------------------------------------------------------------------------------------------------------- |
-| zktestnet | [0x9A10B0Ee458fB9F3aa1281D9700E3C285910b74C](https://explorer.zksync.io/address/0x9A10B0Ee458fB9F3aa1281D9700E3C285910b74C) |
+| zktestnet | [0x7Dbd045Aac039a34EEF1Ca7fF122f8cf84477784](https://explorer.zksync.io/address/0x7Dbd045Aac039a34EEF1Ca7fF122f8cf84477784) |
 
 `Multicall3.sol`
 
 | Chain     | Address                                                                                                                     |
 | --------- | --------------------------------------------------------------------------------------------------------------------------- |
-| zktestnet | [0x755FEe41e5D1Cf6fEe5f5e2b0dE9c79951631117](https://explorer.zksync.io/address/0x755FEe41e5D1Cf6fEe5f5e2b0dE9c79951631117) |
+| zktestnet | [0x91127cEe2Aa50Cd0665aa8C7a8A6CA8eDbAc012C](https://explorer.zksync.io/address/0x91127cEe2Aa50Cd0665aa8C7a8A6CA8eDbAc012C) |

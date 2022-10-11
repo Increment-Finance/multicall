@@ -4,3 +4,9 @@
 [submodule "lib/forge-std"]
 	path = lib/forge-std
 	url = https://github.com/brockelmore/forge-std
+[submodule "lib/zkvyper-bin"]
+	path = lib/zkvyper-bin
+	url = https://github.com/matter-labs/zkvyper-bin
+[submodule "lib/zksolc-bin"]
+	path = lib/zksolc-bin
+	url = https://github.com/matter-labs/zksolc-bin
